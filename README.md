@@ -1,12 +1,12 @@
 # hey-mcp
 
-MCP server that gives Claude full access to [HEY](https://hey.com) email, calendars, todos, habits, time tracking, and journal. Built on [FastMCP](https://github.com/jlowin/fastmcp), it wraps the [hey-cli](https://github.com/cpinto/hey-cli) command-line tool.
+MCP server that gives Claude full access to [HEY](https://hey.com) email, calendars, todos, habits, time tracking, and journal. Built on [FastMCP](https://github.com/jlowin/fastmcp), it wraps the [hey-cli](https://github.com/basecamp/hey-cli) command-line tool.
 
 ## Prerequisites
 
 - **Python 3.11+**
 - **[uv](https://docs.astral.sh/uv/)** package manager
-- **[hey-cli](https://github.com/cpinto/hey-cli)** installed and authenticated
+- **[hey-cli](https://github.com/basecamp/hey-cli)** installed and authenticated
 
 ### Install uv
 
@@ -16,7 +16,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 ### Install and authenticate hey-cli
 
-Follow the [hey-cli installation instructions](https://github.com/cpinto/hey-cli#installation), then authenticate:
+Follow the [hey-cli installation instructions](https://github.com/basecamp/hey-cli#installation), then authenticate:
 
 ```sh
 hey auth login
