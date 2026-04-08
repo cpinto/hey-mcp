@@ -1,0 +1,8 @@
+[project]
+name = "hey-mcp"
+version = "0.1.0"
+description = "MCP server wrapping hey-cli for HEY email"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp[cli]>=1.0.0",
+]
