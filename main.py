@@ -6,7 +6,7 @@ from typing import Any
 
 from mcp.server.fastmcp import FastMCP
 
-HEY = "/opt/homebrew/bin/hey"
+HEY = "/usr/local/bin/hey"
 
 mcp = FastMCP("hey")
 
